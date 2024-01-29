@@ -28,6 +28,9 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
 }
 .header-head , .header-body , .header-foot {
     padding: .5rem 1rem;
@@ -166,6 +169,11 @@ img {
 .banner-img-pad {
     right: 1rem;
     bottom: -2rem;
+}
+
+.banner-index .banner-head ,
+.banner-index .banner-body {
+    padding-top: 3rem;
 }
 
 .banner-index .banner-head {
