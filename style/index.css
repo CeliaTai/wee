@@ -211,3 +211,62 @@
     line-height: 1.5;
 }
 
+/* animation------------------------------------------------ */
+
+.ani-move-downToUp {
+    transform: translateY(120%);
+    animation-name: moveDownToUp ;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes moveDownToUp {
+    from {
+        transform: translateY(120%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.ani-fadeIn {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.ani-delay-1 {
+    animation-delay: .3s;
+}
+
+.ani-delay-2 {
+    animation-delay: .6s;
+}
+
+.ani-delay-3 {
+    animation-delay: .9s;
+}
+
+.ani-delay-4 {
+    animation-delay: 1.2s;
+}
+
+.ani-delay-5 {
+    animation-delay: 1.5s;
+}
+
+.ani-delay-6 {
+    animation-delay: 1.8s;
+}
+
+.ani-delay-7 {
+    animation-delay: 2.1s;
+}
