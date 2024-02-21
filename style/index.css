@@ -270,3 +270,43 @@
 .ani-delay-7 {
     animation-delay: 2.1s;
 }
+
+/* RWD---------------------------------------- */
+
+@media screen and (max-width:480px) {
+    
+
+    .service-items {
+        flex-direction: column;
+    }
+
+    .service-item {
+        width: auto;
+        /* width :100% */
+        /* box-sizing: border-box; */
+    }
+
+    /* project----------------- */
+    .project-item {
+        width: 33.33333%;
+    }
+
+    /* intro------------------ */
+    .base-intro {
+        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+    }
+
+    .base-intro .base-head {
+        text-align: center;
+    }
+
+    .base-intro .base-foot {
+        text-align: center;
+    }
+
+    /* build------------------- */
+
+    .base-build .base-body {
+        max-width: 80vw;
+    }
+}
